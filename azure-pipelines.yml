@@ -6,7 +6,8 @@
 trigger:
 - main
 
-pool: mypool
+pool: 
+  name: mypool
   vmImage: 'ubuntu-latest' # other options: 'macOS-latest', 'windows-latest'
 
 steps:
